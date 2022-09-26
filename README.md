@@ -2,7 +2,7 @@
 
 To Run Docker:
 
-sudo docker run --gpus all -it -p 8888:8888  -it --rm -v /path-to-assignment2-directory:/work --ipc=host --ulimit memlock=-1 --ulimit stack=67108864  nvcr.io/nvidia/pytorch:22.06-py3
+sudo docker run --gpus all -it -p 8888:8888  -it --rm -v /path-to-assignment1-directory:/work --ipc=host --ulimit memlock=-1 --ulimit stack=67108864  nvcr.io/nvidia/pytorch:22.06-py3
 
 Change to Working Directory:
 
